@@ -52,8 +52,9 @@ defmodule Impress.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
       {:arc, "~> 0.11.0"},
-      {:arc_ecto, "~> 0.11.3"}
-
+      {:arc_ecto, "~> 0.11.3"},
+      {:pow, "~> 1.0.20"},
+      {:comeonin, "~> 5.3"}
     ]
   end
 
